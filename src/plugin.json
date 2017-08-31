@@ -1,6 +1,6 @@
 {
-  "name": "SimpleJson",
-  "id": "grafana-simple-json-datasource",
+  "name": "Solarwinds",
+  "id": "grafana-solarwinds",
   "type": "datasource",
 
   "partials": {
@@ -11,20 +11,19 @@
   "annotations": true,
 
   "info": {
-    "description": "simple json datasource",
+    "description": "Solarwinds datasource",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "name": "Jordan",
+      "url": "https://www.southampton.ac.uk/~jcf1n16"
     },
     "logos": {
       "small": "img/simpleJson_logo.svg",
       "large": "img/simpleJson_logo.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
-      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+      {"name": "GitHub", "url": "https://github.com/southampton/solarwinds-grafana"}
     ],
-    "version": "1.3.4",
+    "version": "1.0",
     "updated": "2017-05-10"
   },
 

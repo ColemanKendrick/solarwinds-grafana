@@ -33,7 +33,7 @@ export class GenericDatasource {
 
   testDatasource() {
     return this.doRequest({
-      url: this.url + '/',
+      url: this.url + '/SolarWinds/InformationService/v3/Json/Query?query=SELECT+NodeID+FROM+Orion.Nodes',
       method: 'GET',
     }).then(response => {
       if (response.status === 200) {
